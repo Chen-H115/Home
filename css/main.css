@@ -10,6 +10,11 @@ nav
 
 }
 
+ul
+{
+  margin: 0;
+}
+
 nav ul
 {
   list-style: none;
@@ -51,6 +56,7 @@ nav ul li.logo
   margin: 15% auto;
   color: #ffffff;
   font-family: Helvetica;
+  height: 300px;
 }
 
 .more
@@ -92,16 +98,44 @@ nav ul li.logo
        background-size: auto;
 }
 
+/*
 .photo
 {
   margin: auto;
 }
+*/
 
 .content
 {
   background-color: #ffffff;
   height: 900px;
 }
+
+footer
+{
+  background: #333333;
+  color: #ffffff;
+  min-height: 200px;
+  text-align: center;
+  font-family: Helvetica;
+  filter:alpha(opacity=80); /*  IE  */
+  -moz-opacity:0.80; /*  FireFox  */
+  opacity:0.80; /*  Chrome,Safari  */
+}
+
+.share li
+{
+  display: inline-block;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+/*Loading page*/
 /*
 .loader,
 .loader:before,
@@ -163,6 +197,8 @@ nav ul li.logo
   }
 }
 */
+
+/*
 .spinner {
  width: 60px;
  height: 60px;
@@ -192,3 +228,4 @@ nav ul li.logo
  -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
  }
 }
+*/
