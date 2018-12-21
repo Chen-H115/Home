@@ -113,7 +113,7 @@ nav ul li.logo
 
 footer
 {
-  bottom: 0;
+  position: absolute; left: 0; right: 0;
   background: #333333;
   color: #ffffff;
   min-height: 200px;
