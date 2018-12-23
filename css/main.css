@@ -97,7 +97,7 @@ nav ul li.logo
 
 .bgv
 {
-       position: absolute;top: 0;right: 0;left: 0;
+       position: fixed;top: 0;right: 0;left: 0;
        min-width: 100%; min-height: 100%;
        width: auto; height: auto; z-index: -100;
        background-size: auto;
@@ -128,6 +128,7 @@ footer
   min-height: 200px;
   text-align: center;
   font-family: Helvetica;
+  margin-top: 200px;
 }
 
 .share li
