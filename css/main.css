@@ -51,7 +51,7 @@ nav ul li.logo
 
 #banner .inner h1
 {
-  position: relative;
+  position: auto fixed;
   margin: 0;
 }
 
