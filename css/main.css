@@ -58,6 +58,7 @@ nav ul li.logo
 
 #banner .inner
 {
+  z-index: 0;
   text-align: center;
   margin: 20% auto;
   color: #ffffff;
@@ -67,6 +68,7 @@ nav ul li.logo
 
 .more
 {
+  z-index: 0;
   text-align: center;
   position: relative; bottom: 40px;
   margin-top: 20%;
@@ -76,6 +78,7 @@ nav ul li.logo
 
 .bottomArrow
 {
+  z-index: 0;
   border-top: 10px solid #ffffff;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
