@@ -3,6 +3,7 @@ body{
   background-size: 100%
 }
 
+
 nav
 {
   z-index: 100;
@@ -106,6 +107,7 @@ nav ul li.logo
        min-width: 100%; min-height: 100%;
        width: auto; height: auto; z-index: -100;
        background-size: cover;
+       filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5;z-index:-50; background-color:#ffffff;
 }
 
 /*
@@ -115,14 +117,34 @@ nav ul li.logo
 }
 */
 
-.content
+.Demo-left
 {
-  background-color: #ffffff;
+  padding: 10px;
+  float:left;
+}
+
+.Demo-right
+{
+  padding: 10px;
+  float:right;
 }
 
 .s1
 {
-  background: #666666;
+  background: #8e8e8e;
+  min-height: 320px;
+}
+
+.s2
+{
+  background: #6e6e6e;
+  min-height: 320px;
+}
+
+.s3
+{
+  background: #8e8e8e;
+  min-height: 320px;
 }
 
 footer
