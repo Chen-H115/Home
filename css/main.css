@@ -117,36 +117,38 @@ nav ul li.logo
 }
 */
 
-.Demo-left
+.Demo-left img
 {
+  max-height: 300px;
   max-width: 100%;
-  padding: 10px;
+  right: 10px;
   float:left;
 }
 
-.Demo-right
+.Demo-right img
 {
+  max-height: 300px;
   max-width: 100%;
-  padding: 10px;
+  left: 10px;
   float:right;
 }
 
 .s1
 {
   background: #8e8e8e;
-  min-height: 320px;
+  min-height: 300px;
 }
 
 .s2
 {
   background: #6e6e6e;
-  min-height: 320px;
+  min-height: 300px;
 }
 
 .s3
 {
   background: #8e8e8e;
-  min-height: 320px;
+  min-height: 300px;
 }
 
 footer
