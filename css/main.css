@@ -119,12 +119,14 @@ nav ul li.logo
 
 .Demo-left
 {
+  max-width: 100%;
   padding: 10px;
   float:left;
 }
 
 .Demo-right
 {
+  max-width: 100%;
   padding: 10px;
   float:right;
 }
