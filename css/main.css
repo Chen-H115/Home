@@ -133,7 +133,7 @@ nav ul li.logo
   float:right;
 }
 
-.s1
+.s1 , .s3
 {
   background: #8e8e8e;
   min-height: 300px;
@@ -142,12 +142,6 @@ nav ul li.logo
 .s2
 {
   background: #6e6e6e;
-  min-height: 300px;
-}
-
-.s3
-{
-  background: #8e8e8e;
   min-height: 300px;
 }
 
