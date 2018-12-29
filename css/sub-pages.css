@@ -54,7 +54,7 @@ nav ul li.logo
 .content
 {
   background-color: #ffffff;
-  height: 2000px;
+  min-height: 600px;
 }
 
 
@@ -76,15 +76,13 @@ nav ul li.logo
 
 footer
 {
-  position: relative; bottom: 0;left: 0;right: 0;
+  position: absolute; left: 0; right: 0;
   background: #333333;
   color: #ffffff;
   min-height: 200px;
   text-align: center;
   font-family: Helvetica;
-  filter:alpha(opacity=80); /*  IE  */
-  -moz-opacity:0.80; /*  FireFox  */
-  opacity:0.80; /*  Chrome,Safari  */
+  margin-top: 200px;
 }
 
 .share li
