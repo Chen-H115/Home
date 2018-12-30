@@ -195,20 +195,3 @@ footer
 {
   background: #444;
 }
-
-.loading
-{
-  position: fixed; top: 0; bottom: 0; left: 0; right: 0;
-  z-index: 200;
-  background: #444444;
-  text-align: center;
-  font-family: Helvetica;
-  color: #ffffff;
-}
-
-.loading h1
-{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}

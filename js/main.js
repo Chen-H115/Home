@@ -8,8 +8,6 @@
       sidebar_trigger = $('#sidebar_trigger'),
       condition = 0;
 
-  window.onload=function(){ $('.loading').hide(); }
-
   sidebar_trigger.on('click', function()
   {
     if (condition % 2 == 0) {
