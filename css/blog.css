@@ -106,15 +106,16 @@ nav ul li.logo
 
 .content
 {
+  width: 100%;
   background-color: #ffffff;
   min-height: 1000px;
 }
 
 .content .text
 {
-  top: 100px;
-  width: 100%;
-  min-height: 1000px;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
 }
 
 

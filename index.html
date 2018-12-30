@@ -8,17 +8,14 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
-  
+
   <body>
     <head>
       <video class="bgv" src="video/test.mp4" autoplay loop muted></video>
       <nav>
         <ul>
           <li class="logo"><a href="index.html">Hao</a></li>
-          <li><a href="#"><!--nav bar--><a></li>
-          <li><a href="project/project-index.html">Project<a></li>
-          <li><a href="https://www.youtube.com/channel/UC-K_8rTxmXDwa1g9oXszp3Q?view_as=subscriber">Video<a></li>
-          <li><a href="blog/blog-index.html">Blog<a></li>
+          <li id="sidebar_trigger"><a href="#">MENU<a></li>
         </ul>
       </nav>
       <div id="banner">
@@ -89,5 +86,15 @@
         &copy Hao -- 2019
       </div>
     </footer>
+    <div class="mask"></div>
+    <div id="sidebar">
+      <ul>
+        <li><a href="project/project-index.html">PROJECT</a></li>
+        <li><a href="https://www.youtube.com/channel/UC-K_8rTxmXDwa1g9oXszp3Q?view_as=subscriber">VIDEO</a></li>
+        <li><a href="blog/blog-index.html">BLOG</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
