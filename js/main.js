@@ -13,12 +13,12 @@
     if (condition % 2 == 0) {
       mask.fadeIn();
       sidebar.css('right', 0);
-      condition = condition + 1;
+      condition++;
     }
     else {
       mask.fadeOut();
       sidebar.css('right', -sidebar.width());
-      condition = condition + 1;
+      condition++;
     }
   })
   mask.on('click', function()
