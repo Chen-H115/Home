@@ -1,5 +1,6 @@
 nav
 {
+  z-index: 100;
   background: #5adcec;
   height: 50px;
   position: fixed;top: 0;right: 0;left: 0;
@@ -118,33 +119,41 @@ nav ul li.logo
   overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer
+.mask
 {
-  position: relative; left: 0; right: 0; bottom: 0;
-  background: #333333;
-  color: #ffffff;
-  text-align: center;
-  font-family: Helvetica;
-  min-height: 200px;
+  display: none;
+  position: fixed; top: 0; bottom: 0; left: 0; right: 0;
+  background: rgba(0, 0, 0, 0.8);
 }
 
-.share li
+#sidebar
 {
+  position: fixed; top: 50px; bottom: 0; right: -300px;
+  width: 300px;
+  background: #333;
+  color: #fff;
+  transition: right 0.5s;
+}
+
+#sidebar ul
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar ul a
+{
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  padding: 20px 30px;
+  margin: 0;
   display: inline-block;
-  padding: 30px;
+  width: 100%;
+}
+
+#sidebar ul a:hover
+{
+  background: #444;
 }
