@@ -18,7 +18,7 @@ while True:
         f.close()
         shutil.copy("blog-example.html","article/bolg." + " ".join(added) + ".html")
         temp = open("article/bolg." + " ".join(added) + ".html", "r+")
-        str = '<div class="content"><object class="text" data="test.html"></object></div></body></html>'
+        str = '<div class="content"><object class="text" data="' + " ".join(added) + '.html"></object></div></body></html>'
         temp.seek(0, 2)
         temp.write(str)
         temp.close()
