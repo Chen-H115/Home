@@ -1,7 +1,7 @@
 from pydocx import PyDocX
 import sys, os, time, shutil
 
-file = "article"
+file = "../../../../Desktop/blog"
 before = dict ([(f, None) for f in os.listdir (file)])
 
 while True:
@@ -12,7 +12,7 @@ while True:
 
     if added:
         print("Added:", ", ".join(added))
-        html = PyDocX.to_html("article/" + " ".join(added))
+        html = PyDocX.to_html("../../../../Desktop/blog/" + " ".join(added))
         f = open("article/" + " ".join(added) + ".html", 'w', encoding="utf-8")
         f.write(html)
         f.close()
