@@ -145,12 +145,14 @@ nav ul li.logo
 {
   background: #8e8e8e;
   min-height: 300px;
+  font-family: Helvetica;
 }
 
 .s2
 {
   background: #6e6e6e;
   min-height: 300px;
+  font-family: Helvetica;
 }
 
 footer
