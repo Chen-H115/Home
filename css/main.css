@@ -1,11 +1,7 @@
 body{
   background: #4e4e4e;
   background-size: 100%;
-}
-
-.head
-{
-
+  font-family: Helvetica;
 }
 
 nav
@@ -102,7 +98,7 @@ nav ul li.logo
 
 .bgp
 {
-  position: fixed;bottom: 0;
+  position: fixed ;bottom: 0; left: 0; right: 0;
   min-height: 100%;
   height: auto;
   width: 100%;
@@ -129,6 +125,7 @@ nav ul li.logo
 
 .Demo-left img
 {
+  margin: 0;
   max-height: 300px;
   max-width: 100%;
   right: 10px;
@@ -137,6 +134,7 @@ nav ul li.logo
 
 .Demo-right img
 {
+  margin: 0;
   max-height: 300px;
   max-width: 100%;
   left: 10px;
