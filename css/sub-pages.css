@@ -57,7 +57,8 @@ nav ul li.logo
   position: relative;
   top: 40px;
   background-color: #ffffff;
-  min-height: 1000px;
+  min-height: 600px;
+  font-family: Helvetica;
 }
 
 .function
@@ -68,12 +69,18 @@ nav ul li.logo
   z-index: 0;
 }
 
-.list ul li
+.post
 {
-    text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(0,255,0);
+  word-wrap: break-word;
 }
 
-
+.lead
+{
+  max-width: 98%;
+}
 
 
 
