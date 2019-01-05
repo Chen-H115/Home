@@ -105,8 +105,7 @@ def main():
             temp.write(indexHtml)
             temp.close()
 
-            #!!!!!!!
-            #git_push()
+            git_push()
         if removed:
             print("Removed:", ", ".join(removed))
 
