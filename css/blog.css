@@ -118,6 +118,7 @@ nav ul li.logo
   width: inherit;
   height: inherit;
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .mask
