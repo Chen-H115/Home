@@ -1,5 +1,5 @@
 from pydocx import PyDocX
-import sys, os, time, shutil
+import sys, os, time, shutil, docx
 
 def git_push():
     os.system('git add .')
@@ -28,6 +28,21 @@ def main():
         if added:
             print("Added:", ", ".join(added))
 
+            #get(Date)
+            date = time.strftime("%m-%d-%Y %H:%M", time.localtime())
+            print(date)
+
+            #get(Header Lead Label)
+            doc = docx.Document(file + "/" + " ".join(added))
+            fullText = []
+            header = doc.paragraphs[0].text
+            label = doc.paragraphs[2].text
+            lead = doc.paragraphs[4].text
+            print(header)
+            print(label)
+            print(lead)
+            type(lead)
+
             name = rename(" ".join(added))
 
             #make contents
@@ -44,22 +59,16 @@ def main():
             temp.write(str)
             temp.close()
 
-            #write in bolg-index.html(Date)
-            data = time.strftime("%m-%d-%Y %H:%M", time.localtime())
-            print(data)
-            #
+            #get(URL)
+            url = "article/bolg-" + name + ".html"
+            print(url)
 
-            #write in blog-index.txt(Header Lead Label)
-            def getElement(filename):
-                doc = docx.Document(filename)
-                fullText = []
-                header = doc.paragraphs[0]
-                label = doc.paragraphs[2]
-                lead = doc.paragraphs[4]
-                print(header.text)
-                print(lable.text)
-                print(lead.text)
-                #
+            #write all elements(Date URL Header Label Lead)
+            blogIndex = open("blog-index.txt",'a+')
+            DUHLL = date + "###" + url + "###" + header + "###" + label + "###" + lead + "/n"
+            blogIndex.write(DUHLL)
+            blogIndex.close()
+
 
 
 
