@@ -116,12 +116,21 @@ nav ul li.logo
        filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5;z-index:-50; background-color:#ffffff;
 }
 
-/*
+.content
+{
+  margin-top: 100px;
+}
+
 .photo
 {
   margin: auto;
 }
-*/
+
+.photo img
+{
+  width: inherit;
+  height: inherit;
+}
 
 .Demo-left img
 {
